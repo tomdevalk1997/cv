@@ -1,0 +1,141 @@
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .headline {
+        padding: 40px
+    }
+}
+
+
+@media screen and (min-width: 1040px) {
+  .headshot {
+    height: 480px;
+  } 
+    
+  .headline {
+    height: 480px;
+  }
+  }
+
+  @media screen and (max-width: 1040px) {
+    #backgroundPhoto {
+      min-height: 0;
+      background-size: cover;
+    }
+
+    .headshot {
+        height: 45vw;
+      }
+      
+      
+      .headline {
+        height: 45vw;
+      }
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+    .headshot {
+        margin-top: 150px;
+        height: 400px;
+        object-fit: cover;
+        width: 100%;
+        object-position: 0px -13px;
+        border-radius: 4px;
+    }
+    .headline {
+      margin-top: 0px;
+      height: 400px;
+    }
+    .contact-info {
+      padding-right: 10px;
+    }
+    form #name, form #email {
+      width: 100%;
+    }
+    
+    form #subject, form #message {
+      width: 100%;
+    }
+    form label {
+      width: calc(100% + 5px);
+    }
+    form #submit {
+      width: 100%;
+    }
+  
+}
+
+@media screen and (max-width: 660px) {
+  .slideright-container-hobbies {
+    grid-template-columns: 125px 125px 125px 125px;
+  }
+  .hobby.active{
+    width: 115px;
+    transition: none;
+  }
+  
+  .slideright-container {
+    grid-template-columns: 150px 150px 150px;
+  }
+  .language.active {
+    width: 150px;
+    transition: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .language {
+    text-align: left;
+  }
+
+}
+@media screen and (max-width: 520px) {
+
+  .timeline-description {
+    padding-left: 25px;
+  }
+  .timeline-timefunction {
+    padding-right: 25px;
+  }
+  .headshot {
+    height: 250px;
+  }
+
+  .slideright-container {
+    grid-template-columns: 130px 130px 130px;
+  }
+  .language.active {
+    width: 120px;
+    transition: none;
+    padding-left: 12px;
+    padding-right: 15px;
+  }
+  .language {
+    text-align: left;
+  }
+  .slideright-container-hobbies {
+    grid-template-columns: 105px 105px 105px 105px;
+  }
+  .hobby.active{
+    width: 97px;
+    transition: none;
+  }
+  .hobby-text {
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  .headshot {
+    height: 220px;
+  }
+  .headline {
+    height: 460px;
+  }
+}

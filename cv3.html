@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tom de Valk</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="navbar.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+      <nav id="navbar" class="fixed-top">
+        <a id="brand-name" class="navbar-left">Tom de Valk</a>
+        <div class="navbar-outer">
+        <!-- <form method="get" target="_blank" action="CV Tom de Valk Nederlands 2020.pdf">
+          <button class="navbar-item navbar-right" type="submit">Download Resume</button>
+        </form> -->
+
+
+
+          <div class="topnav" id="myTopnav">
+            <a></a>
+            <a onclick="closeDropdown()" href="#row-experience" class="navbar-item navbar-right">Experience</a>
+            <a onclick="closeDropdown()" href="#row-education" class="navbar-item navbar-right">Education</a>
+            <a onclick="closeDropdown()" href="#row-languages" class="navbar-item navbar-right">Languages</a>
+            <a onclick="closeDropdown()" href="#row-skills" class="navbar-item navbar-right">Skills</a>
+            <a onclick="closeDropdown()" href="#row-hobbies" class="navbar-item navbar-right">Hobbies</a>
+            <a onclick="closeDropdown()" href="#row-contact" class="navbar-item navbar-right">Contact</a>
+            <a id="download">
+              <form method="get" target="_blank" action="CV_Tom_de_Valk_English__23_12_2020.pdf">
+                <button class="navbar-item navbar-right"  type="submit">Download Resume</button>
+              </form>
+            </a>
+            <div class="dropdown">
+
+
+            </div>
+            <a href="javascript:void(0);" class="icon_dropdown" onclick="dropDown()">&#9776;</a>
+          </div>
+      </div>
+
+
+      </nav>
+      <div id="backgroundPhoto" class="container-fluid col-12">
+        <!-- <div class="row"> -->
+          <!-- <div class="inner-headshot"> -->
+            <div class="row align-items-end justify-content-center no-gutters introduction_container">
+              <div class="col-10 col-md-5 col-lg-4 introduction">
+                <img class="headshot" src="IMG_0561.jpg">
+              </div>
+              <div class="col-10 col-md-5 col-lg-4 introduction">
+                <div class="headline">
+                  <h1>Tom de Valk</h1>
+                  <h3>MSc. Student Business Analytics</h3>
+                  <h3 class="headline-item">Phone:</h3>
+                  <h4 class="headline-description">+31 6 43516203</h4>
+                  <h3 class="headline-item">Email:</h3>
+                  <h4 class="headline-description">tomdevalk@hotmail.nl</h4>
+                  <h3 class="headline-item">Adress:</h3>
+                  <h4 class="headline-description">Breeweg 10<br/>
+                    1251 DX, Laren<br/>
+                    The Netherlands</h4>
+                  <h3 class="headline-item">Date of Birth:</h3>
+                  <h4 class="headline-description">27th of August, 1997</h4>
+                </div>
+              </div>
+            <!-- </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+      <div id="row-summary" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters media-outer">
+          <div class="col-10 col-md-10 col-lg-8 media justify-content-center">
+            <div class="media-icon">
+              <svg class="svg-icon" viewBox="0 0 24 24">
+  							<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"
+                  onclick="window.open('https://www.facebook.com/tom.devalk/','_blank')"></path>
+  						</svg>
+            </div>
+            <div class="media-icon">
+              <svg class="svg-icon" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  onclick="window.open('https://www.linkedin.com/in/tom-de-valk/','_blank')"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-9 col-lg-7  summary">
+            <h1 id="summary-title">Hi! I'm Tom</h1>
+            <h4 id="summary-text"> MSc. student Business Analytics at VU Amsterdam, The Netherlands.
+              Former Data Analyst at Zilveren Kruis. Achieved Bachelor of Science in Mathematical
+              Engineering in July 2019 at The Hague University of Applied Sciences in Delft,
+              The Netherlands. Undergraduate internship at Marketing Evolution in New York City. Graduation
+              internship at Zilveren Kruis Achmea. Graduated Dutch high school (HAVO) with 3 honour awards and a
+              "most valuable student" award. International orientation and culturally aware
+              as a result of elementary school and middle years program in US, UK and Singapore.
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div id="row-experience" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-7 experience">
+            <h2 class="section-title">Experience</h2>
+          </div>
+        </div>
+        <div id="experience1" class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">September 2020 - Present</h3>
+                <h4 class="timeline-description-header">Mathematics Tutor</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Yellow Education<h4>
+                <p>Hilversum, The Netherlands</p>
+                <p>Tuition of high school students in mathematics.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="experience2" class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">June 2020 - August 2020</h3>
+                <h4 class="timeline-description-header">Data Analyst</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Zilveren Kruis<h4>
+                <p>Leusden, The Netherlands</p>
+                <p>Development of a computer vision model to analyze patient X-rays to enable
+                    automated approval of dentist treatments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="experience3" class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">February 2019 - June 2019</h3>
+                <h4 class="timeline-description-header">Data Science and Modelling Intern</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Zilveren Kruis<h4>
+                <p>Leusden, The Netherlands</p>
+                <p>Development of a neural network model for the prediction
+                  of health insurance claims to detect inefficient medical care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="experience4" class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">February 2018 - July 2018</h3>
+                <h4 class="timeline-description-header">Software Development Intern</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right last-timeline-element col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Marketing Evolution<h4>
+                <p>New York City, United States</p>
+                <p>Development of an application to analyze and categorize image and
+                  video advertising using machine-learning APIs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="row-education" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-7 education">
+            <h2 class="section-title">Education</h2>
+          </div>
+        </div>
+      </div>
+      <div id="row-education2">
+        <div class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">September 2020 - Present</h3>
+                <h4 class="timeline-description-header">Master of Science (MSc.)</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Business Analytics<h4>
+                <p>VU University Amsterdam, The Netherlands</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">September 2019 - July 2020</h3>
+                <h4 class="timeline-description-header">Premaster</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Business Analytics<h4>
+                <p>VU University Amsterdam, The Netherlands</p>
+                <!-- <p>Completed in July 2020</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">September 2015 - July 2019</h3>
+                <h4 class="timeline-description-header">Bachelor of Science (BSc.)</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Mathematical Engineering<h4>
+                <p>The Hague University of Applied Sciences, The Netherlands</p>
+                <!-- <p>Graduated in July 2019 </br>
+                  Thesis subject: Detection of inefficient healthcare using a neural network model </br>
+                  Thesis grade: 7.8</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">September 2017 - February 2018</h3>
+                <h4 class="timeline-description-header">Minor</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Finance & Accounting<h4>
+                <p>HU University of Applied Sciences, The Netherlands</p>
+                <!-- <p>Completed in February 2018</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5 col-lg-4">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">September 2010 - June 2015</h3>
+                <h4 class="timeline-description-header">High School (HAVO)</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right last-timeline-element col-5 col-lg-4">
+              <div class="timeline-description">
+                <h4 class="timeline-description-header">Natuur & Techniek, Natuur & Gezondheid<h4>
+                <p>Laar & Berg, The Netherlands</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="row-languages" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-7">
+            <h2 class="dark-title">Languages</h2>
+          </div>
+        </div>
+      </div>
+      <div id="row-languages-content" class="container-fluid col-12">
+        <div class="row no-gutters justify-content-center">
+          <div class="col-10 col-xl-8">
+            <div class="container-fluid col-12">
+              <div class="row justify-content-center slideright-container">
+                <div class="language">
+                  <h3 class="language-text">English</h3>
+                  <h4 class="language-text">Mothertongue</h4>
+                </div>
+                <div class="language">
+                  <h3 class="language-text">Dutch</h3>
+                  <h4 class="language-text">Mothertongue</h4>
+                </div>
+                <div class="language">
+                  <h3 class="language-text">Spanish</h3>
+                  <h4 class="language-text">Elementary Profiency</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="row-skills" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-7 skills">
+            <h2 class="section-title">Skills</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-xl-7 col-9">
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">Python</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item" data-percentage="85"></div>
+                <div id="skills-level-python"  class="skill-level-bar" data-percentage="70"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">Machine Learning in Python</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item"></div>
+                <div id="skills-level-ml-python" class="skill-level-bar" data-percentage="85"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">SAS</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item"></div>
+                <div  id="skills-level-sas"  class="skill-level-bar" data-percentage="85"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">Machine Learning in SAS</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item"></div>
+                <div id="skills-level-ml-sas"  class="skill-level-bar" data-percentage="85"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">Visual Basic for Applications</h4>
+              </div>
+              <div class="col-8">
+                <div  class="skills-level-item"></div>
+                <div id="skills-level-vba" class="skill-level-bar" data-percentage="75"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">R Programming</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item"></div>
+                <div id="skills-level-r" class="skill-level-bar" data-percentage="65" ></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">SQL</h4>
+              </div>
+              <div class="col-8">
+                <div  class="skills-level-item"></div>
+                <div id="skills-level-sql" class="skill-level-bar" data-percentage="65"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item" >Java</h4>
+              </div>
+              <div class="col-8">
+                <div  class="skills-level-item"></div>
+                <div id="skills-level-java" class="skill-level-bar" data-percentage="55"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">HTML/CSS</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item"></div>
+                <div id="skills-level-html" class="skill-level-bar" data-percentage="60"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">Data Visualization</h4>
+              </div>
+              <div class="col-8">
+                <div  class="skills-level-item"></div>
+                <div id="skills-level-datavis" class="skill-level-bar"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center no-gutters">
+              <div class="col-4">
+                <h4 class="skills-item">PowerBI</h4>
+              </div>
+              <div class="col-8">
+                <div class="skills-level-item"></div>
+                <div id="skills-level-powerbi" class="skill-level-bar" data-percentage="50"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="row-other-experience" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-7 experience">
+            <h2 class="section-title">Other Experience</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-3 other-experience-item">
+            <h3>Youth Basketball Coach and Trainer<h3>
+            <h4>Eem '78, Eemnes, The Netherlands</h4>
+            <p>January 2012 - Present</p>
+            <p>Coaching and Training of multiple youth basketball teams for ages from 8 until 18.</p>
+          </div>
+          <div class="col-3 other-experience-item">
+            <h3>Basketball Game Official<h3>
+            <h4>Eem '78, Eemnes, The Netherlands</h4>
+            <p>December 2013 - May 2020</p>
+            <p>Refereeing and scoring of basketball games in youth class F for the ages 10 until 18.</p>
+          </div>
+        </div> -->
+          <!-- <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">January 2012 - Present</h3>
+                <h4 class="timeline-description-header">Youth Basketball Coach and Trainer</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5">
+              <div class="timeline-description">
+                <div class="timeline-description-content">
+                  <h4 class="timeline-description-header">Eem '78<h4>
+                    <p>Eemnes, The Netherlands</p>
+                    <p>Coaching and Training of multiple youth basketball teams for ages from 8 until 18.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="timeline-element row justify-content-center no-gutters">
+            <div class="timeline-time col-5">
+              <div class="timeline-timefunction">
+                <h3 class="timeline-description-header">December 2013 - May 2020</h3>
+                <h4 class="timeline-description-header">Basketball Game Official</h4>
+              </div>
+            </div>
+            <div class="timeline-element-right col-5">
+              <div class="timeline-description">
+                <div class="timeline-description-content">
+                  <h4 class="timeline-description-header">Eem '78<h4>
+                    <p>Eemnes, The Netherlands</p>
+                    <p>Refereeing and scoring of basketball games in youth class F for the ages 10 until 18.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      <!-- </div> -->
+
+      <div id="row-hobbies" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-7">
+            <h2 class="dark-title">Hobbies</h2>
+          </div>
+        </div>
+      </div>
+      <div id="row-hobbies-content" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-xl-8 col-10">
+            <div class="container-fluid col-12">
+              <div class="row justify-content-center slideright-container-hobbies">
+                <div class="hobby">
+                  <h3 class="hobby-text">Fitness</h3>
+                </div>
+                <div class="hobby">
+                  <h3 class="hobby-text">Basketball</h3>
+                </div>
+                <div class="hobby">
+                  <h3 class="hobby-text">Sports Cars</h3>
+                </div>
+                <div class="hobby">
+                  <h3 class="hobby-text">Photography</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="row-contact" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-10 col-md-7">
+            <h2 class="section-title">Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="contact-form col-10 col-md-5 col-lg-4">
+            <form action="mailto:tomdevalk@hotmail.nl" method="post">
+              <input type="text" id="name" name="name" placeholder="Name">
+              <input type="text" id="email" name="email" placeholder="Email">
+              <input type="text" id="subject" name="subject" placeholder="Subject">
+              <input type="text" id="message" name="message" placeholder="Message">
+              <input type="submit" value="Submit" id="submit" onclick="sendContact();">
+              <label><p>Thanks for reaching out!</p></label>
+            </form>
+          </div>
+          <div class="col-10 col-md-5 col-lg-4">
+            <div class="contact-info">
+              <div class="contact-content">
+                <h1>Tom de Valk</h1>
+                <h4>MSc. Student Business Analytics</h4>
+                <h3 class="headline-item">Phone:</h3>
+                <h4 class="headline-description">+31 6 43516203</h4>
+                <h3 class="headline-item">Email:</h3>
+                <h4 class="headline-description">tomdevalk@hotmail.nl</h4>
+                <hr>
+              </div>
+              <div class="row">
+                <div class="media-icon2 col-2 col-md-4">
+                  <svg class="svg-icon" viewBox="0 0 24 24">
+      							<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"
+                      onclick="window.open('https://www.facebook.com/tom.devalk/','_blank')"></path>
+      						</svg>
+                </div>
+                <div class="media-icon2 col-2 col-md-4">
+                  <svg class="svg-icon" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                      onclick="window.open('https://www.linkedin.com/in/tom-de-valk/','_blank')"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="row-copyright" class="container-fluid col-12">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-8 ">
+            <h4>&copy; Tom de Valk 2021</h4>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script src="cv3.js"></script>
+</html>

@@ -1,0 +1,634 @@
+html {
+	scroll-behavior: smooth;
+}
+
+h1, h4, a, button, p {
+  font-family: "Avenir Light";
+  color: #1a2250;
+}
+
+h2, h3 {
+  font-family: "Avenir";
+  color: #1a2250;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 15px;
+}
+p {
+  font-size: 13px;
+}
+
+#navbar {
+  background-color: #FFFFFF;
+  height: 200;
+  overflow: hidden;
+}
+
+#navbar button {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  border-color: #1a2250;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #FFFFFF;
+  height: 50px;
+  transition: 0.3s;
+	border-style: solid;
+}
+
+#navbar button:hover {
+  border-color: #aab4d1;
+  color: #aab4d1;
+  transition: 0.3s;
+	border-style: solid;
+}
+
+.navbar-left {
+  float: left;
+}
+.navbar-right {
+  float: left;
+
+}
+
+
+.navbar-item {
+  margin-top: 16px;
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: 0.3s
+}
+
+.navbar-item:hover {
+  color: #aab4d1;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#backgroundPhoto {
+  background-color: #1a2250;
+  min-height: 650px;
+  background-image: url("ny4.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#brand-name {
+  font-size: 35px;
+  margin-left: 10px;
+  color: #1a2250;
+  padding: 14px;
+}
+
+/* .introduction {
+  margin-top: 200px;
+} */
+
+.headline {
+  padding: 80px;
+  background-color: #f1f1f1;
+  margin-top: 200px;
+}
+.headshot {
+  margin-top: 200px;
+}
+
+.headline-item {
+  margin-top: 20px;
+}
+.headline-description{
+  margin-top: -5px;
+  line-height: 1.2;
+}
+
+#row-summary {
+  background-color: #f1f1f1;
+}
+
+.summary {
+  min-height: 300px;
+  padding: 100px;
+  margin-bottom: 80px;
+}
+
+#summary-title {
+  text-align: center;
+}
+
+#summary-text {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.section-title {
+  padding: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#row-experience {
+  background-color: #FFFFFF;
+	scroll-margin-top: 80px;
+}
+
+#experience1, #experience2, #experience3, #experience4 {
+	opacity: 1;
+	transition: 0.6s ease-out;
+}
+
+#experience1.visible, #experience2.visible, #experience3.visible, #experience4.visible {
+	opacity: 1;
+	transition: 0.6s ease-out;
+}
+
+#row-education {
+  background-color: #FFFFFF;
+  scroll-margin-top: 80px;
+}
+
+#row-languages {
+  height: 110px;
+  background-color: #1a2250;
+  scroll-margin-top: 80px;
+}
+
+#row-languages-content, #row-hobbies-content {
+  background-color: #293561;
+  height: 100;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px;
+}
+
+.dark-title {
+  padding: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.language {
+  background-color: rgba(250, 250, 250, 0.15);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 0px;
+  opacity: 0;
+  transition: 2s;
+  position: relative;
+}
+
+.language.active {
+  width: 200px;
+  opacity: 1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.slideright-container {
+  margin: 0 auto;
+  display: grid;
+  column-gap: 1vw;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.slideright-container-hobbies {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 155px 155px 155px 155px;
+}
+
+
+.language-text, .hobby-text{
+  color: white;
+}
+
+.hobby {
+  background-color: rgba(250, 250, 250, 0.15);
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-align: center;
+  width: 0px;
+  opacity: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 2s;
+}
+
+.hobby.active{
+  width: 145px;
+  opacity: 1;
+}
+
+#row-skills {
+  scroll-margin-top: 80px;
+}
+
+#skills-list {
+  list-style-type: none;
+  font-size: 15px;
+  font-family: "Avenir Light";
+  color: #1a2250;
+}
+
+.skills-item {
+  padding: 10px;
+}
+.skill-level-bar {
+  background: #1a2250;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+}
+
+#skills-level-list {
+  list-style-type: none;
+  font-size: 15px;
+  font-family: "Avenir Light";
+  color: #1a2250;
+}
+
+.skills-level-item {
+  /* padding: 4.5px; */
+  background-color: rgba(220, 220, 220, 0.45);
+  position: absolute;
+  top: 50%;
+  height: 3px;
+  width: 100%;
+}
+/* #skills-level-ml-python::before, #skills-level-ml-sas::before, #skills-level-datavis::before, #skills-level-python::before,
+#skills-level-sas::before, #skills-level-vba::before, #skills-level-r::before, #skills-level-sql::before,
+#skills-level-java::before, #skills-level-html::before, #skills-level-powerbi::before{
+    position: absolute;
+		left: -45px;
+    content: " ";
+    border: 2px solid #1a2250;
+    background: #1a2250;
+    height: 2px;
+    margin-left: 48px;
+    margin-top: 14.5px;
+} */
+
+
+#skills-level-ml-python.active {
+    width: 85%;
+	}
+
+#skills-level-ml-sas.active{
+    width: 85%; 
+}
+
+#skills-level-datavis.active{
+    width: 80%; 
+}
+
+#skills-level-python.active{
+    width: 70%; 
+}
+
+#skills-level-sas.active{
+    width: 60%; 
+}
+
+#skills-level-vba.active{
+    width: 75%;
+}
+
+#skills-level-r.active{
+    width: 65%;
+}
+
+#skills-level-sql.active{
+    width: 65%;
+}
+
+#skills-level-java.active{
+    width: 55%;
+}
+
+#skills-level-html.active{
+    width: 60%;
+}
+#skills-level-powerbi.active{
+    width: 50%;
+}
+
+
+#skills-level-ml-python, #skills-level-ml-sas, #skills-level-datavis,
+#skills-level-python, #skills-level-sas, #skills-level-vba, 
+#skills-level-r, #skills-level-sql, #skills-level-java, #skills-level-html,
+#skills-level-powerbi {
+  width: 0;
+  transition: 1.5s;
+}
+
+
+
+
+
+/* #skills-level-ml-python::before, #skills-level-ml-sas::before, #skills-level-datavis::before, #skills-level-python::before,
+#skills-level-sas::before, #skills-level-vba::before, #skills-level-r::before, #skills-level-sql::before {
+    position: absolute;
+    left: -2.6px;
+    content: " ";
+    border: 2px solid #1a2250;
+    background: #1a2250;
+    height: 2px;
+    margin-left: 48px;
+    margin-top: 14.5px;
+} */
+
+/* #skills-level-ml-python::before {
+    width: 70%; 
+		transition: 2s;
+		}
+
+#skills-level-ml-sas::before{
+    width: 80%; 
+}
+
+#skills-level-datavis::before{
+    width: 60%; 
+}
+
+#skills-level-python::before{
+    width: 60%;
+}
+
+#skills-level-sas::before{
+    width: 60%; 
+}
+
+#skills-level-vba::before{
+    width: 80%;
+}
+
+#skills-level-r::before{
+    width: 40%;
+}
+
+#skills-level-sql::before{
+    width: 50%;
+} */
+
+#row-hobbies {
+  scroll-margin-top: 80px;
+  background-color: #1a2250;
+  height: 110px;
+  margin-top: 100px;
+}
+
+#row-contact {
+  background-color: #f1f1f1;
+  scroll-margin-top: 80px;
+  padding-bottom: 20px;
+}
+
+#row-copyright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.timeline-time {
+  width: 100%;
+  text-align: right;
+}
+
+.timeline-timefunction {
+  padding-right: 50px;
+  margin-top: -5px;
+	width: 100%;
+}
+
+.timeline-element-right {
+  border-left: 1px solid #DDDDDD;
+	width: 100%;
+}
+
+.timeline-element {
+	width: 100%;
+}
+
+.last-timeline-element {
+  margin-bottom: 50px;
+}
+
+.timeline-description {
+  padding-left: 50px;
+  margin-top: -5px;
+  margin-bottom: 50px;
+	width: 100%;
+}
+
+.timeline-description-header {
+  letter-spacing: 2px;
+}
+
+.timeline-element-right::before{ /* timeline-bolletje */
+    position: absolute;
+    left: -2.6px;
+    content: " ";
+    border: 3px solid #1a2250;
+    border-radius: 100%;
+    background: #1a2250;
+    height: 1px;
+    width: 1px;
+}
+
+.contact-form {
+  padding: 20px;
+}
+.contact-info {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 120px;
+}
+
+form #name, form #email, form #subject, form #message {
+  background-color: white;
+  color: #1a2250;
+  padding: 10px;
+  border-style: none;
+  margin: 5px;
+  font-family: "Avenir Light";
+  font-size: 13px;
+}
+
+form label {
+	text-align: center;
+	width: calc(80% + 5px);
+	margin: 0 auto;
+}
+
+form #name, form #email {
+  width: 80%;
+}
+
+form #subject, form #message {
+  width: 80%;
+}
+
+form #message {
+  height: 150px;
+  line-height:40px;
+}
+
+form #submit {
+  padding: 10px;
+  border-style: none;
+  margin: 5px;
+  font-family: "Avenir Light";
+  font-size: 13px;
+  color: white;
+  background-color: #1a2250;
+  width: 80%;
+  transition: background-color 0.3s;
+}
+
+form #submit:hover {
+  background-color: #aab4d1;
+  transition: 0.3s;
+}
+
+.media-icon2 {
+  height: 30px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.contact-info hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.educationtest {
+	width: 50%;
+}
+
+.media {
+  /* height: 80px; */
+  height: 0;
+	opacity: 0;
+  background-color: #1a2250;
+}
+
+.media-outer {
+  height: 80px;
+  /* background: black; */
+}
+
+
+.media-icon {
+	fill: #FFFFFF;
+	transition: 0.3s;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.media-icon2 {
+	fill: #1a2250;
+	transition: 0.3s;
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.svg-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.media-icon .svg-icon path,
+.media-icon .svg-icon polygon,
+.media-icon .svg-icon rect {
+  fill: #FFFFFF;
+	transition: 0.3s;
+}
+
+.media-icon .svg-icon circle {
+  stroke: #FFFFFF;
+  stroke-width: 1;
+	transition: 0.3s;
+}
+
+.media-icon:hover {
+	cursor: pointer;
+}
+
+.media-icon:hover .svg-icon path,
+.media-icon:hover .svg-icon polygon,
+.media-icon:hover .svg-icon rect {
+	fill: #aab4d1;
+	transition: 0.3s;
+}
+
+.media-icon:hover circle {
+	stroke: #aab4d1;
+	stroke-width: 1;
+	transition: 0.3s;
+}
+
+.media-icon2:hover {
+	cursor: pointer;
+}
+
+.media-icon2 .svg-icon path,
+.media-icon2 .svg-icon polygon,
+.media-icon2 .svg-icon rect {
+  fill: #1a2250;
+	transition: 0.3s;
+}
+
+.media-icon .svg-icon circle {
+  stroke: #1a2250;
+  stroke-width: 1;
+	transition: 0.3s;
+}
+
+.media-icon2:hover .svg-icon path,
+.media-icon2:hover .svg-icon polygon,
+.media-icon2:hover .svg-icon rect {
+	fill: #aab4d1;
+	transition: 0.3s;
+}
+
+.media-icon2:hover circle {
+	stroke: #aab4d1;
+	stroke-width: 1;
+	transition: 0.3s;
+}
+
+.other-experience-item {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.other-experience-item p {
+	margin-bottom: 5px;
+}
