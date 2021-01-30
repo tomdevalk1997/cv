@@ -148,12 +148,12 @@ p {
 	scroll-margin-top: 80px;
 }
 
-#experience1, #experience2, #experience3, #experience4 {
+#experience0, #experience1, #experience2, #experience3, #experience4 {
 	opacity: 1;
 	transition: 0.6s ease-out;
 }
 
-#experience1.visible, #experience2.visible, #experience3.visible, #experience4.visible {
+#experience0, #experience1.visible, #experience2.visible, #experience3.visible, #experience4.visible {
 	opacity: 1;
 	transition: 0.6s ease-out;
 }
@@ -297,19 +297,19 @@ p {
 	}
 
 #skills-level-ml-sas.active{
-    width: 85%; 
+    width: 85%;
 }
 
 #skills-level-datavis.active{
-    width: 80%; 
+    width: 80%;
 }
 
 #skills-level-python.active{
-    width: 70%; 
+    width: 70%;
 }
 
 #skills-level-sas.active{
-    width: 60%; 
+    width: 60%;
 }
 
 #skills-level-vba.active{
@@ -337,7 +337,7 @@ p {
 
 
 #skills-level-ml-python, #skills-level-ml-sas, #skills-level-datavis,
-#skills-level-python, #skills-level-sas, #skills-level-vba, 
+#skills-level-python, #skills-level-sas, #skills-level-vba,
 #skills-level-r, #skills-level-sql, #skills-level-java, #skills-level-html,
 #skills-level-powerbi {
   width: 0;
@@ -361,16 +361,16 @@ p {
 } */
 
 /* #skills-level-ml-python::before {
-    width: 70%; 
+    width: 70%;
 		transition: 2s;
 		}
 
 #skills-level-ml-sas::before{
-    width: 80%; 
+    width: 80%;
 }
 
 #skills-level-datavis::before{
-    width: 60%; 
+    width: 60%;
 }
 
 #skills-level-python::before{
@@ -378,7 +378,7 @@ p {
 }
 
 #skills-level-sas::before{
-    width: 60%; 
+    width: 60%;
 }
 
 #skills-level-vba::before{
