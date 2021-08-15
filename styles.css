@@ -539,7 +539,6 @@ form #submit:hover {
 
 .media-outer {
   height: 80px;
-  /* background: black; */
 }
 
 
@@ -623,6 +622,22 @@ form #submit:hover {
 	stroke-width: 1;
 	transition: 0.3s;
 }
+
+
+
+
+.language-select p:hover {
+	cursor: pointer;
+	transition: 0.3s;
+	color: #aab4d1;
+}
+
+.language-select p {
+	transition: 0.3s;
+	padding: 30px;
+	color: #FFFFFF;
+}
+
 
 .other-experience-item {
 	padding-right: 20px;
