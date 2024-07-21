@@ -302,7 +302,7 @@ p {
 	}
 
 #skills-level-ml-sas.active{
-    width: 85%;
+    width: 45%;
 }
 
 #skills-level-datavis.active{
@@ -310,31 +310,31 @@ p {
 }
 
 #skills-level-python.active{
-    width: 70%;
+    width: 85%;
 }
 
 #skills-level-sas.active{
-    width: 60%;
+    width: 50%;
 }
 
 #skills-level-vba.active{
-    width: 75%;
+    width: 50%;
 }
 
 #skills-level-r.active{
-    width: 65%;
+    width: 50%;
 }
 
 #skills-level-sql.active{
-    width: 65%;
+    width: 80%;
 }
 
 #skills-level-java.active{
-    width: 55%;
+    width: 45%;
 }
 
 #skills-level-html.active{
-    width: 60%;
+    width: 30%;
 }
 #skills-level-powerbi.active{
     width: 50%;
@@ -434,6 +434,11 @@ p {
 	width: 100%;
 }
 
+.timeline-element-right-grey {
+  border-left: 1px solid #DDDDDD;
+	width: 100%;
+}
+
 .timeline-element {
 	width: 100%;
 }
@@ -460,6 +465,17 @@ p {
     border: 3px solid #1a2250;
     border-radius: 100%;
     background: #1a2250;
+    height: 1px;
+    width: 1px;
+}
+
+.timeline-element-right-grey::before{ /* timeline-bolletje */
+    position: absolute;
+    left: -2.6px;
+    content: " ";
+    border: 3px solid #A9A9A9;
+    border-radius: 100%;
+    background: #A9A9A9;
     height: 1px;
     width: 1px;
 }
