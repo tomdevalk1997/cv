@@ -297,24 +297,16 @@ p {
 } */
 
 
-#skills-level-ml-python.active {
-    width: 85%;
-	}
-
-#skills-level-ml-sas.active{
-    width: 45%;
-}
-
 #skills-level-datavis.active{
     width: 80%;
 }
 
 #skills-level-python.active{
-    width: 85%;
+    width: 75%;
 }
 
 #skills-level-sas.active{
-    width: 50%;
+    width: 25%;
 }
 
 #skills-level-vba.active{
@@ -326,25 +318,29 @@ p {
 }
 
 #skills-level-sql.active{
-    width: 80%;
+    width: 85%;
 }
-
-#skills-level-java.active{
-    width: 45%;
-}
-
 #skills-level-html.active{
-    width: 30%;
+    width: 25%;
 }
 #skills-level-powerbi.active{
-    width: 50%;
+    width: 70%;
+}
+#skills-level-dataeng.active{
+    width: 80%;
+}
+#skills-level-databricks.active{
+    width: 40%;
+}
+#skills-level-snowflake.active{
+    width: 70%;
 }
 
 
 #skills-level-ml-python, #skills-level-ml-sas, #skills-level-datavis,
 #skills-level-python, #skills-level-sas, #skills-level-vba,
 #skills-level-r, #skills-level-sql, #skills-level-java, #skills-level-html,
-#skills-level-powerbi {
+#skills-level-powerbi, #skills-level-snowflake, #skills-level-databricks, #skills-level-dataeng {
   width: 0;
   transition: 1.5s;
 }
